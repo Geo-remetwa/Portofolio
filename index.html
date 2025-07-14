@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- FONT AWESOME -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Responsive Personal Portfolio | @Gregoriusagung</title>
+</head>
+<body>
+  <!-- Header Design -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <i class="fa-solid fa-moon" id="darkMode-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi, Myself</h3>
+      <h1>Gregorius agung</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>
+      I craft engaging and user-friendly web experiences by blending creative design with seamless functionality. With over three years of hands-on project work using Laravel and React.js, I’m passionate about turning ideas into meaningful digital solutions. Beyond clean code, I focus on creating products that people enjoy using — combining technical skills with thoughtful design and problem solving.
+
+
+      </p>
+      <div class="social-media">
+        <a href="https://www.facebook.com/Geo.Remetwa.77?locale=id_ID"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/Geo-remetwa"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/gre.rmtw/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/Gregorius-dev/"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+      <a href="img/CV-Geo_remetwa.pdf" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="img/1.png" alt="Profile Photo" />
+    </div>
+  </section>
+
+  
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/geoaja.jpg" alt="About Photo" />
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Frontend Developer</h3>
+      <p>
+       Proficient in React.js, Laravel, CodeIgniter, Python, PHP, Dart, and Flutter. I build responsive, visually appealing web and mobile applications with a strong focus on delivering smooth and enjoyable user experiences. Beyond clean code, I aim to create solutions that are intuitive, meaningful, and user-centered.
+      </p>
+      <a href="#" class="btn" aria-disabled="true">Read More</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+<section class="services" id="services">
+  <h2 class="heading">My <span>Services</span></h2>
+  <div class="services-container">
+    <div class="services-box">
+      <i class="fa-solid fa-code"></i>
+      <h3>Web Development</h3>
+      <p>Building interactive and responsive websites with modern web technologies, ensuring performance & great user experience.</p>
+      <a href="#" class="btn" aria-disabled="true">Read More</a>
+    </div>
+    <div class="services-box">
+      <i class="fa-solid fa-palette"></i>
+      <h3>UI/UX Designing</h3>
+      <p>Designing intuitive user interfaces and experiences by applying design principles and user research.</p>
+      <a href="#" class="btn" aria-disabled="true">Read More</a>
+    </div>
+    <div class="services-box">
+      <i class="fa-solid fa-android"></i>
+      <h3>App Development</h3>
+      <p>Developing innovative mobile applications from concept to launch that meet high standards and deliver user value.</p>
+      <a href="#" class="btn" aria-disabled="true">Read More</a>
+    </div>
+    <div class="services-box">
+      <i class="fa-solid fa-database"></i>
+      <h3>Backend Development</h3>
+      <p>Creating secure and scalable APIs & databases using PHP, Laravel, and MySQL to power dynamic web applications.</p>
+      <a href="#" class="btn" aria-disabled="true">Read More</a>
+    </div>
+    <div class="services-box">
+      <i class="fa-solid fa-brain"></i>
+      <h3>AI & Automation</h3>
+      <p>Building intelligent tools and automations using Python to simplify workflows and add smart features to applications.</p>
+      <a href="#" class="btn" aria-disabled="true">Read More</a>
+    </div>
+    <div class="services-box">
+      <i class="fa-solid fa-mobile-screen"></i>
+      <h3>Responsive Design</h3>
+      <p>Ensuring websites and apps look great and function perfectly on all devices with modern, mobile-first design.</p>
+      <a href="#" class="btn" aria-disabled="true">Read More</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Portfolio Section -->
+ <section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Projects</span></h2>
+  <div class="portfolio-container">
+
+    <div class="portfolio-box">
+      <img src="img/ss kue.png" alt="Kingdom Cake App" />
+      <div class="portfolio-layer">
+        <h4>Kingdom Cake</h4>
+        <p>A cake shop app built with CodeIgniter 3, featuring payment integration and real-time order tracking.</p>
+        <i class="fa-solid fa-up-right-from-square fa-3x"></i>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/thungkable.jpg" alt="App Sell" />
+      <div class="portfolio-layer">
+        <h4>App Sell</h4>
+        <p>Built with Thunkable, helps manage products, track stock, and record transactions with real-time updates.</p>
+        <i class="fa-solid fa-up-right-from-square fa-3x"></i>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/ss hotel.png" alt="Booking Hotel App" />
+      <div class="portfolio-layer">
+        <h4>Booking Hotel</h4>
+        <p>A React.js app that lets users search, filter, and book hotel rooms with a modern responsive design.</p>
+        <i class="fa-solid fa-up-right-from-square fa-3x"></i>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/kedai koi.png" alt="Kedai Kopi" />
+      <div class="portfolio-layer">
+        <h4>Kedai Kopi</h4>
+        <p>A CodeIgniter 3 web app to browse, order, and manage coffee fish products with inventory tracking.</p>
+        <i class="fa-solid fa-up-right-from-square fa-3x"></i>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/ss_ponpes.png" alt="Pondok Pesantren" />
+      <div class="portfolio-layer">
+        <h4>Pondok Pesantren</h4>
+        <p>A Laravel-based website to manage student data, activities, and photo galleries for the Islamic boarding school.</p>
+        <i class="fa-solid fa-up-right-from-square fa-3x"></i>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/ss_absensi.png" alt="Attendance System" />
+      <div class="portfolio-layer">
+        <h4>Attendance System</h4>
+        <p>A Laravel-based attendance system featuring automatic check-in, detailed reporting, and employee data management.</p>
+        <i class="fa-solid fa-up-right-from-square fa-3x"></i>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Certificates Section -->
+<section class="certificates" id="certificates">
+  <h2 class="heading">My <span>Certificates</span></h2>
+  <div class="certificates-container">
+    <div class="certificate-box">
+      <img src="img/pp_python.png" alt="Python Certificate" />
+      <div class="certificate-content">
+        <h4>Python Programming</h4>
+        <p>Advanced Python course: data structures, OOP & real-world projects.</p>
+        <a href="img/sertifikat python.pdf" target="_blank" class="btn">View PDF</a>
+      </div>
+    </div>
+    <!-- Tambahkan certificate-box lain sesuai kebutuhan -->
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email Subject" />
+      </div>
+      <textarea placeholder="Your Message" rows="10"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>&copy; 2024 by @Gregoriusagung | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+
+  <!-- ScrollReveal JS -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Typed JS -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Main JS -->
+  <script src="main.js"></script>
+</body>
+</html>
